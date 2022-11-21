@@ -35,6 +35,8 @@ def index():
     #else:
         #return redirect('/signin')
 
+        
+
 @app.get('/signin')
 def signin():
     username = request.form.get('username')
